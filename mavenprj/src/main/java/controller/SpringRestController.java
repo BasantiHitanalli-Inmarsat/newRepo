@@ -61,7 +61,7 @@ public class SpringRestController {
 
 		try {
 			connection = DriverManager
-			.getConnection("jdbc:mysql://172.30.185.105:3306/sampledb","admin", "admin");
+			.getConnection("jdbc:mysql://172.30.196.32:3306/profitcenterbrmsdb","admin", "admin");
 //					.getConnection("jdbc:mysql://localhost:3306/inmarsatrulesdb","root", "Password-1");
 			System.out.println("check connection");
 			if(connection != null){
